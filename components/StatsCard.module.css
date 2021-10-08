@@ -1,0 +1,18 @@
+.StatsCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.StatsCard {
+  width: 60%;
+  height: 60%;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.StatsCardContent {
+  display: flex;
+  flex-direction: column;
+}
