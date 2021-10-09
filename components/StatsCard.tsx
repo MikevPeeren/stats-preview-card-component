@@ -1,5 +1,7 @@
 import styles from "./StatsCard.module.css";
 
+import Image from "next/image";
+
 const StatsCard = () => {
   return (
     <div className={styles.StatsCardContainer}>
@@ -25,8 +27,8 @@ const StatsCard = () => {
                 <span>Queries</span>
               </div>
             </div>
-            <div className={styles.StatsCardContent__rightSide}></div>
           </div>
+          <div className={styles.StatsCardContent__rightSide}></div>
         </div>
       </div>
     </div>
