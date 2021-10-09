@@ -24,7 +24,7 @@
 .StatsCardContent__leftSide {
   display: flex;
   flex-direction: column;
-  justify-content: between;
+  justify-content: space-between;
   color: white;
   padding: 15px;
 }
