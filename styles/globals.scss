@@ -1,3 +1,8 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -5,4 +10,30 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   background-color: hsl(233, 47%, 7%);
+}
+
+h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+h4 {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
 }

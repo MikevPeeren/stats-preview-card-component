@@ -1,79 +1,15 @@
-.StatsCardContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  height: 100vh;
-}
-
 .StatsCard {
   width: 70%;
   height: 50%;
   background-color: hsl(244, 38%, 16%);
-  border-radius: 1rem;
 }
 
-.StatsCardContent {
-  display: flex;
-  flex-direction: row;
-  justify-content: between;
-  height: 100%;
-
-  &__leftSide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    color: white;
-    margin: 15px;
-  }
-
-  &__rightSide {
-    width: 50%;
-    height: 100%;
-    background-image: url("/image-header-desktop.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
+.BackgroundImage {
+  background-image: url("/image-header-desktop.jpg");
+  background-color: hsl(277, 64%, 61%);
+  background-blend-mode: multiply;
 }
 
-.SummaryText {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.CompanyText {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.TemplateText {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.QueryText {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.HeaderText {
-  font-weight: 700;
-  font-size: 25px;
-}
-
-.TextLexendDeca {
-  font-weight: 400;
-  font-family: "Lexend Deca", sans-serif;
+.VioletColor {
+  color: hsl(277, 64%, 61%);
 }
