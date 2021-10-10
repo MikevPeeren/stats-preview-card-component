@@ -13,15 +13,17 @@ body {
 }
 
 h1 {
-  font-family: "Lexend Deca", sans-serif;
-  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
+  text-align: center;
 }
 
 h2 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  letter-spacing: 0.05em;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
