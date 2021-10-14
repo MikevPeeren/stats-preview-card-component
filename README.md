@@ -54,6 +54,6 @@ I have further improved my knowledge regarding responsiveness.
 
 ## Author
 
-- Website - [Mike van Peeren(https://mikevpeeren.nl/)
+- Website - [Mike van Peeren](https://mikevpeeren.nl/)
 - Frontend Mentor - [@MikevPeeren](https://www.frontendmentor.io/profile/MikevPeeren)
 - LinkedIN - [@MikevPeeren](https://www.linkedin.com/in/mikevpeeren/)
