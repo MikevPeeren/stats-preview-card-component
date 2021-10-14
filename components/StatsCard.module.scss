@@ -3,7 +3,28 @@
 }
 
 .BackgroundImage {
-  background-image: url("/image-header-mobile.jpg");
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+
+  @media (max-width: 640px) {
+    width: 100%;
+    height: 200px;
+    background-image: url("/image-header-mobile.jpg");
+  }
+
+  @media (min-width: 640px) and (max-width: 768px) {
+    width: 100%;
+    height: 100% !important;
+    background-image: url("/image-header-desktop.jpg");
+  }
+
+  @media (min-width: 768px) {
+    height: 100% !important;
+    background-image: url("/image-header-desktop.jpg");
+  }
+
   background-color: hsl(277, 64%, 61%);
   background-blend-mode: multiply;
 }

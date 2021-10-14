@@ -18,6 +18,10 @@ h1 {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 h2 {
@@ -32,10 +36,18 @@ h3 {
   font-size: 2rem;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 h4 {
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
   letter-spacing: 0.075em;
+
+  @media (max-width: 768px) {
+    font-size: 0.75rem;
+  }
 }
