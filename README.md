@@ -24,6 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1682" alt="Screenshot 2021-10-14 at 20 32 34" src="https://user-images.githubusercontent.com/15649037/137375946-c1dee457-200e-471c-bf76-d1d03c2c93be.png">
+
 ### Links
 
 - Solution URL: [Solution]()
