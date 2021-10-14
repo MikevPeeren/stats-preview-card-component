@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/stats-preview-card-with-nextjsreacttailwindcss-wXWiFM-Tu)
 - Solution URL: [Vercel Webpage](stats-preview-card-component-tau-vert.vercel.app)
 
 ## My process
