@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/node": "^17.0.27",
     "next": "12.1.5",
-    "react": "18.0.0",
+    "react": "18.1.0",
     "react-dom": "18.0.0",
     "sass": "^1.51.0"
   },
